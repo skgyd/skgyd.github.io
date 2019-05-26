@@ -1,0 +1,95 @@
+body{
+    margin:0px;
+    border:0px;
+    padding:0px;
+}
+
+.container{
+    width:960px;
+    margin:0 auto;
+}
+
+/*nav*/
+nav{
+    height:50px;
+    background-color: rgba(165, 133, 241, 0.89);
+    color: rgb(240, 239, 239);
+    font-family: 'Roboto Slab', serif;
+}
+
+nav h1{
+    float:left;
+    font-size:28px;
+    line-height: 180%;
+    margin:0;
+}
+
+nav ul{
+    list-style-type:none;
+    display:inline;
+}
+
+nav ul a{
+    float:right;
+    text-decoration:none;
+    width:60px;
+    line-height: 50%;
+    color:rgba(122, 100, 173, 0.89);
+}
+
+nav ul a:hover{
+    color:rgba(144, 115, 212, 0.89);
+}
+
+header{
+    background-color:rgba(230, 224, 245, 0.89);
+    background-size: 100%;
+    height:500px;
+}
+
+#self_content{
+     margin:0px auto;
+     text-align:center;
+     font-family:'Nanum Myeongjo', cursive;
+}
+
+header h1{
+    margin-top:0px;
+    padding-top:150px;
+    padding-bottom:20px;
+    color:rgba(139, 112, 201, 0.89);
+}
+
+header p{
+    font-weight: bold;
+    padding-top:5px;
+    color:rgb(165, 163, 163);
+}
+
+/*article*/
+section.section01{
+    font-family:'Nanum Pen Script', cursive;
+    text-align:center;
+    /*padding:50px;*/
+}
+
+.section_img{
+    width:300px;
+    float:left;
+    margin:100px 10px;
+}
+
+section.section02{
+    margin-bottom:150px;
+    font-family:'Nanum Myeongjo', cursive;
+    text-align:center;
+    padding:100px;
+}
+
+footer{
+    background-color: lightgray;
+    font-family: 'Roboto Slab', serif;
+    text-align:center;
+    padding-top:15px;
+    padding-bottom:15px;
+}
